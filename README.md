@@ -6,7 +6,7 @@ FastAPI-сервис для обработки документов и отве�
 
 - Docker и Docker Compose ([установка](https://docs.docker.com/get-docker/))
 - Git ([установка](https://git-scm.com/downloads))
-- Для разработки: Python 3.9+
+- Запросить API Keys для модели qwen/qwen3-235b-a22b:free на сайте OpenRouter ([установка](https://openrouter.ai/settings/keys)) и вписать в .\config\settings.py API Keys
 
 ## 🛠 Установка и запуск
 
@@ -22,3 +22,6 @@ docker-compose up -d --build
 
 # 3. Сервис будет доступен по адресу:
 #    http://localhost:8000
+
+
+
